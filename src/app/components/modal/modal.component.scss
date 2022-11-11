@@ -1,0 +1,30 @@
+.modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  background-color: black;
+  opacity: 0.5;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.modal-form {
+  width: 500px;
+  position: absolute;
+  background-color: white;
+  opacity: 1;
+  border-radius: 5px;
+  top: 16px;
+
+}
+
+.modal-form-text {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  text-align: center;
+  font-size: 1em;
+}

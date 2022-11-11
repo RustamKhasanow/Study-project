@@ -1,0 +1,16 @@
+.global-error {
+  position: relative;
+  text-align: center;
+  background-color: rgb(201, 51, 51);
+  color: white;
+  height: 2em;
+  padding-top: 0.5em;
+  font-size: 1em;
+
+  &-close {
+    position: absolute;
+    top: 2px;
+    right: 5px;
+    color: white;
+  }
+}

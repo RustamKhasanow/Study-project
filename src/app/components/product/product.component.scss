@@ -1,0 +1,26 @@
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+  margin-bottom: 2px;
+  border: 1px dashed rgb(27, 24, 24);
+  padding: 5px;
+
+
+  img {
+    width: 15%;
+  }
+
+  button {
+    border-radius: 5px;
+    border-style: hidden;
+    padding: 6px 4px;
+    background-color: yellow;
+
+    &:hover {
+      background-color: aquamarine;
+    }
+  }
+}
